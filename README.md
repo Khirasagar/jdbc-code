@@ -50,7 +50,10 @@ With these steps, you have set up Apache Tomcat server in Eclipse, ready to be u
 
 
 
-JDBC setup
+
+
+
+# JDBC setup
 Before we start we need to connect to the java file to the msql database thats why we need a connecter file i.e. "C:\mysql_jar\mysql-connector-j-8.3.0" 
 1. Create a new java project app_java_x,
 2. then right click on the project , add a folder "lib" and copy and paste the executable jar "mysql-connector-j-8.3.0.jar "file into the lib folder
@@ -62,12 +65,12 @@ still there is no linking to link it to the mysql database
 app_java_x > lib > mysql-connector-j-8.3.0.jar select it apply > ok > close
 
 
-JRE setup
+# JRE setup
 Windows>Preferences>search JRE> select installed JREs> Add> Standard VM > NExt> JRE HOME______(Directory)>select jdk version and folder you require from the path installed
 "C:\Program Files\Java\jdk1.8.0_202" >Select folder > Finish > Apply and Close
 
 
-Apache tomcat setup 
+# Apache tomcat setup 
 
 BEfore Startinng a dynamic web project we need to seup or install the servers of apacahe tomcat server in ecllipse
 
@@ -87,6 +90,11 @@ Browse> select root path for bin "C:\tomcat-jan-batch\apache-tomcat-9.0.86" > se
 
 
 
+| Task              | Instructions                                                                                                                                                            |
+|-------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| JDBC setup        | 1. Create a new java project `app_java_x`. <br> 2. Right-click on the project, add a folder named `lib`, and copy `mysql-connector-j-8.3.0.jar` into the `lib` folder. <br> 3. Right-click on the project > Properties > Java Build Path > Libraries > Add Jars > Navigate to `app_java_x` > `lib` > `mysql-connector-j-8.3.0.jar`, select it, and click "Apply" > "OK" > "Close". |
+| JRE setup         | 1. Go to Windows > Preferences > Search for "JRE" > Select "Installed JREs" > Add > Standard VM > Next > JRE HOME______(Directory) > Select JDK version and folder you require from the path installed "C:\Program Files\Java\jdk1.8.0_202" > Select folder > Finish > Apply and Close. |
+| Apache Tomcat setup | 1. Download Tomcat 9 from the [official website](https://tomcat.apache.org/download-90.cgi)(https://tomcat.apache.org/download-90.cgi). <br> 2. Copy the downloaded zip file into a folder (e.g., "tomcat-jan-batch") in C drive and extract it. <br> 3. In Eclipse, go to Window > Show View > Server tab > Click to add a new server OR use Ctrl+N and type "server" > In the server tab, click the dropdown of Apache > Select Tomcat v9.0 (according to the downloaded version) > Browse and select the root path for bin (e.g., "C:\tomcat-jan-batch\apache-tomcat-9.0.86") > Select "Finish". |
 
 
 
