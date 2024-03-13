@@ -19,6 +19,34 @@ Before we start, we need to connect our Java file to the MySQL database. This re
    - Click "OK" and then "Close".
 
 With these steps, you have linked the MySQL connector to your Java project, allowing you to connect to a MySQL database using JDBC.
+# Apache Tomcat Setup
+
+Before starting a dynamic web project, we need to set up or install the Apache Tomcat server in Eclipse.
+
+## Setting up Apache Tomcat Server in Eclipse
+
+1. **Download Apache Tomcat:**
+   - Go to [Tomcat Downloads](https://tomcat.apache.org/download-90.cgi) and select the Tomcat 9 download.
+   - Under the "Core" section, select the .zip (pgp, sha512) file to start the download. (e.g., 11.7MB file).
+
+2. **Extract Tomcat Archive:**
+   - Once the file is downloaded, copy the zip file.
+   - Create a folder in the C drive, e.g., "tomcat-jan-batch".
+   - Paste the zip file into that folder and extract it. 
+
+3. **Setting up in Eclipse:**
+   - Open Eclipse.
+   - Go to `Window` > `Show View` > `Servers` tab.
+   - If no server is available, click to add a new server or use `Ctrl + N` and type "server".
+   - In the server tab, click the dropdown of Apache and select "Tomcat v9.0" (select according to the version you have downloaded).
+
+4. **Configure Server Path:**
+   - It will ask for the server's path.
+   - Click on "Browse" and select the root path for the bin directory, e.g., "C:\tomcat-jan-batch\apache-tomcat-9.0.86".
+   - Click "Finish" to complete the setup.
+
+With these steps, you have set up Apache Tomcat server in Eclipse, ready to be used for your dynamic web projects.
+
 
 
 
