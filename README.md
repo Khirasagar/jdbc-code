@@ -32,3 +32,8 @@ still there is no linking to link it to the mysql database
 3.right click on project > properties >java buildpath > Libraties > Add jars > 
 4. then the project name should be highlighted go to 
 app_java_x > lib > mysql-connector-j-8.3.0.jar select it apply > ok > close
+
+
+JRE setup
+Windows>Preferences>search JRE> select installed JREs> Add> Standard VM > NExt> JRE HOME______(Directory)>select jdk version and folder you require from the path installed
+"C:\Program Files\Java\jdk1.8.0_202" >Select folder > Finish > Apply and Close
