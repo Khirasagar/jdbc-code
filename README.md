@@ -28,6 +28,7 @@ Before we start we need to connect to the java file to the msql database thats w
 2. then right click on the project , add a folder "lib" and copy and paste the executable jar "mysql-connector-j-8.3.0.jar "file into the lib folder
 
 still there is no linking to link it to the mysql database
+
 3.right click on project > properties >java buildpath > Libraties > Add jars > 
-4. then the project name should be highlighted 
-go to  app_java_x > lib > mysql-connector-j-8.3.0.jar select it apply > ok > close
+4. then the project name should be highlighted go to 
+app_java_x > lib > mysql-connector-j-8.3.0.jar select it apply > ok > close
