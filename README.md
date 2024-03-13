@@ -37,3 +37,37 @@ app_java_x > lib > mysql-connector-j-8.3.0.jar select it apply > ok > close
 JRE setup
 Windows>Preferences>search JRE> select installed JREs> Add> Standard VM > NExt> JRE HOME______(Directory)>select jdk version and folder you require from the path installed
 "C:\Program Files\Java\jdk1.8.0_202" >Select folder > Finish > Apply and Close
+
+
+Apache tomcat setup 
+
+BEfore Startinng a dynamic web project we need to seup or install the servers of apacahe tomcat server in ecllipse
+
+Windows >Show view > server tab > No server Available click to add new server OR/OR
+
+
+1.google tomcat download > select tomcat 9 download> in left menu under download section select tomcat 9 > under core select .zip(pgp, sha512)11.7mb file to start download
+
+After the file has downloaded
+2.Copy the zip file > create a folder in C drive "tomcat-jan-batch" >paste the zip file in that folder > Click Extract here 
+
+
+Windows >Show view > server tab > if No server Available click to add new server OR/OR ctrl+N andt type server > In server tab click dropdown of apache > select Tomcat v9.0(select according  to the version that you have downloaded)
+
+Then it will ask for path 
+Browse> select root path for bin "C:\tomcat-jan-batch\apache-tomcat-9.0.86" > select finish
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
