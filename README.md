@@ -90,12 +90,22 @@ Browse> select root path for bin "C:\tomcat-jan-batch\apache-tomcat-9.0.86" > se
 
 
 
+How to link a DYnamic web project into JDBC
+
+Copy the "mysql-connector-j-8.3.0.jar"file and past it in the
+src > main > webapp > WEB-INF > lib and paste it there
+
+
+
+
+
 | Task              | Instructions                                                                                                                                                            |
 |-------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | JDBC setup        | 1. Create a new java project `app_java_x`. <br> 2. Right-click on the project, add a folder named `lib`, and copy `mysql-connector-j-8.3.0.jar` into the `lib` folder. <br> 3. Right-click on the project > Properties > Java Build Path > Libraries > Add Jars > Navigate to `app_java_x` > `lib` > `mysql-connector-j-8.3.0.jar`, select it, and click "Apply" > "OK" > "Close". |
 | JRE setup         | 1. Go to Windows > Preferences > Search for "JRE" > Select "Installed JREs" > Add > Standard VM > Next > JRE HOME______(Directory) > Select JDK version and folder you require from the path installed "C:\Program Files\Java\jdk1.8.0_202" > Select folder > Finish > Apply and Close. |
 | Apache Tomcat setup | 1. Download Tomcat 9 from the [official website](https://tomcat.apache.org/download-90.cgi)(https://tomcat.apache.org/download-90.cgi). <br> 2. Copy the downloaded zip file into a folder (e.g., "tomcat-jan-batch") in C drive and extract it. <br> 3. In Eclipse, go to Window > Show View > Server tab > Click to add a new server OR use Ctrl+N and type "server" > In the server tab, click the dropdown of Apache > Select Tomcat v9.0 (according to the downloaded version) > Browse and select the root path for bin (e.g., "C:\tomcat-jan-batch\apache-tomcat-9.0.86") > Select "Finish". |
-
+|How to link a DYnamic web project into JDBC | Copy the "mysql-connector-j-8.3.0.jar"file and past it in the
+src > main > webapp > WEB-INF > lib and paste it there
 
 
 
