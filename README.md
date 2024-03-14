@@ -96,6 +96,20 @@ Copy the "mysql-connector-j-8.3.0.jar"file and past it in the
 src > main > webapp > WEB-INF > lib and paste it there
 
 
+SHOW THE PATH TO APACHE TOMCAT which was tomcat unable to locate of its own
+ to tomcat where is the driver class 
+for the error"No suitable driver found for jdbc:mysql://localhost:3306/jan_db at java.sql/java.sql.DriverManager.getConnection"
+
+(project)web_app >  Web App Libraries > mysql-connector-jar-j-8.0 > com.mysql.cj.jdbc > Driver.class
+
+			add Class.forName("com.mysql.cj.jdbc.Driver");
+
+
+
+
+
+
+
 
 
 
@@ -105,6 +119,7 @@ src > main > webapp > WEB-INF > lib and paste it there
 | JRE setup         | 1. Go to Windows > Preferences > Search for "JRE" > Select "Installed JREs" > Add > Standard VM > Next > JRE HOME______(Directory) > Select JDK version and folder you require from the path installed "C:\Program Files\Java\jdk1.8.0_202" > Select folder > Finish > Apply and Close. |
 | Apache Tomcat setup | 1. Download Tomcat 9 from the [official website](https://tomcat.apache.org/download-90.cgi)(https://tomcat.apache.org/download-90.cgi). <br> 2. Copy the downloaded zip file into a folder (e.g., "tomcat-jan-batch") in C drive and extract it. <br> 3. In Eclipse, go to Window > Show View > Server tab > Click to add a new server OR use Ctrl+N and type "server" > In the server tab, click the dropdown of Apache > Select Tomcat v9.0 (according to the downloaded version) > Browse and select the root path for bin (e.g., "C:\tomcat-jan-batch\apache-tomcat-9.0.86") > Select "Finish". |
 |How to link a DYnamic web project into JDBC | Copy the "mysql-connector-j-8.3.0.jar"file and past it in the path`src > main > webapp > WEB-INF > lib`and paste it there |
+|SHOW THE PATH TO APACHE TOMCAT | which was tomcat unable to locate of its own to tomcat where is the driver class for the error `"No suitable driver found for jdbc:mysql://localhost:3306/jan_db at java.sql/java.sql.DriverManager.getConnection"` `(project)web_app >  Web App Libraries > mysql-connector-jar-j-8.0 > com.mysql.cj.jdbc > Driver.class` add Class.forName("com.mysql.cj.jdbc.Driver"); |
 
 
 
