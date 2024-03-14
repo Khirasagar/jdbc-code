@@ -83,20 +83,20 @@ After the file has downloaded
 2.Copy the zip file > create a folder in C drive "tomcat-jan-batch" >paste the zip file in that folder > Click Extract here 
 
 
-Windows >Show view > server tab > if No server Available click to add new server OR/OR ctrl+N andt type server > In server tab click dropdown of apache > select Tomcat v9.0(select according  to the version that you have downloaded)
+`Windows >Show view > server tab > if No server Available click to add new server OR/OR ctrl+N andt type server > In server tab click dropdown of apache > select Tomcat v9.0(select according  to the version that you have downloaded)`
 
 Then it will ask for path 
-Browse> select root path for bin "C:\tomcat-jan-batch\apache-tomcat-9.0.86" > select finish
+`Browse> select root path for bin "C:\tomcat-jan-batch\apache-tomcat-9.0.86" > select finish`
 
 
 
-How to link a DYnamic web project into JDBC
+## How to link a DYnamic web project into JDBC
 
 Copy the "mysql-connector-j-8.3.0.jar"file and past it in the
-src > main > webapp > WEB-INF > lib and paste it there
+`src > main > webapp > WEB-INF > lib and paste it there`
 
 
-SHOW THE PATH TO APACHE TOMCAT which was tomcat unable to locate of its own
+## SHOW THE PATH TO APACHE TOMCAT which was tomcat unable to locate of its own
  to tomcat where is the driver class 
 for the error"No suitable driver found for jdbc:mysql://localhost:3306/jan_db at java.sql/java.sql.DriverManager.getConnection"
 
