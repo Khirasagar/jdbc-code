@@ -47,9 +47,9 @@ Before starting a dynamic web project, we need to set up or install the Apache T
 
 With these steps, you have set up Apache Tomcat server in Eclipse, ready to be used for your dynamic web projects.
 
-
-
-
+## if some not of its type error
+right click on the project 
+buildpath>configure build path > java build path >libraries >select modulepath > select option "Add library" > Select Apache tomcat version v9.0 > Apply Close
 
 
 
@@ -120,6 +120,8 @@ for the error"No suitable driver found for jdbc:mysql://localhost:3306/jan_db at
 | Apache Tomcat setup | 1. Download Tomcat 9 from the [official website](https://tomcat.apache.org/download-90.cgi)(https://tomcat.apache.org/download-90.cgi). <br> 2. Copy the downloaded zip file into a folder (e.g., "tomcat-jan-batch") in C drive and extract it. <br> 3. In Eclipse, go to Window > Show View > Server tab > Click to add a new server OR use Ctrl+N and type "server" > In the server tab, click the dropdown of Apache > Select Tomcat v9.0 (according to the downloaded version) > Browse and select the root path for bin (e.g., "C:\tomcat-jan-batch\apache-tomcat-9.0.86") > Select "Finish". |
 |How to link a DYnamic web project into JDBC | Copy the "mysql-connector-j-8.3.0.jar"file and past it in the path`src > main > webapp > WEB-INF > lib`and paste it there |
 |SHOW THE PATH TO APACHE TOMCAT | which was tomcat unable to locate of its own to tomcat where is the driver class for the error `"No suitable driver found for jdbc:mysql://localhost:3306/jan_db at java.sql/java.sql.DriverManager.getConnection"` `(project)web_app >  Web App Libraries > mysql-connector-jar-j-8.0 > com.mysql.cj.jdbc > Driver.class` add Class.forName("com.mysql.cj.jdbc.Driver"); |
+|if some not of its type error | `right click on the project > buildpath > configure build path > java build path > libraries >select highlight modulepath > select option "Add library" > Select Apache tomcat version v9.0 > Apply Close` |
+
 
 
 
